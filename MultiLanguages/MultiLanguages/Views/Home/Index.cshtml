@@ -1,0 +1,56 @@
+﻿@using System.Globalization
+@using System.Threading
+
+@{
+    ViewData["Title"] = MultiLanguages.Resources.Resource.HomePage;
+
+    // Определяем символ валюты в зависимости от культуры
+    string currencySymbol = Thread.CurrentThread.CurrentCulture.Name switch
+    {
+        "en-US" => "$",
+        "ru-RU" => "₽",
+        "es-ES" => "€",
+        _ => "$"
+        };
+
+    // Определяем число и форматируем его как валюту
+    decimal amount = 1427993;
+    string formattedAmount = amount.ToString("N", Thread.CurrentThread.CurrentCulture);
+
+    // Определяем текущую дату и форматируем её согласно культуре
+    string formattedDate = DateTime.Now.ToString("D", Thread.CurrentThread.CurrentCulture);
+
+    // Определяем часовой пояс и форматируем его отображение
+    TimeZoneInfo timeZone = TimeZoneInfo.Local;
+    string timeZoneDisplayName = timeZone.DisplayName;
+}
+
+<div class="text-center">
+    <h1 class="display-4">@MultiLanguages.Resources.Resource.Welcome</h1>
+    <p>@MultiLanguages.Resources.Resource.LearnAbout <a href="https://learn.microsoft.com/aspnet/core">@MultiLanguages.Resources.Resource.BuildingWebApps</a>.</p>
+</div>
+
+<div class="text-center">
+    <h2>@MultiLanguages.Resources.Resource.LocalTime:</h2>
+    <p id="localTime"></p> <!-- Обновляемое время -->
+    <p>@formattedDate</p> <!-- Локализованная дата -->
+    <p>@timeZoneDisplayName</p> <!-- Часовой пояс -->
+</div>
+
+<div class="text-center">
+    <h2>@MultiLanguages.Resources.Resource.CurrencyText:</h2>
+    <p>@MultiLanguages.Resources.Resource.CurrencyText: <strong>@currencySymbol @formattedAmount</strong></p> <!-- Число с валютой -->
+</div>
+
+@section Scripts {
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString();
+            document.getElementById('localTime').textContent = timeString;
+        }
+
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<data name="Home" xml:space="preserve">
+    <value>Главная</value>
+</data>
+    <data name="Privacy" xml:space="preserve">
+        <value>О Приложении</value>
+    </data>
+<data name="HomePage" xml:space="preserve">
+    <value>Главная страница</value>
+</data>
+<data name="Welcome" xml:space="preserve">
+    <value>Добро пожаловать в приложение MultiLanguages!</value>
+</data>
+<data name="LearnAbout" xml:space="preserve">
+    <value>Узнайте, как создавать многоязычные веб-приложения с ASP.NET Core.</value>
+</data>
+<data name="BuildingWebApps" xml:space="preserve">
+    <value>Создание веб-приложений</value>
+</data>
+<data name="PrivacyPolicy" xml:space="preserve">
+    <value>О приложении</value>
+</data>
+    <data name="LocalTime" xml:space="preserve">
+    <value>Локальное время этого региона</value>
+</data>
+    <data name="CurrencyText" xml:space="preserve">
+    <value>Валюта этого региона</value>
+</data>
+    <data name="ApplicationDescriptionTitle" xml:space="preserve">
+    <value>Описание приложения</value>
+</data>
+    <data name="ApplicationDescription" xml:space="preserve">
+    <value>Данное веб-приложение демонстрирует реализацию многоязычного интерфейса с поддержкой локализации и глобализации для различных языков и региональных настроек. Приложение построено на платформе ASP.NET Core и предназначено для пользователей, которые работают на разных языках (английском, русском и испанском), с возможностью переключения языков интерфейса и адаптации отображаемых данных под культурные особенности выбранного региона.</value>
+</data>
+    <data name="ApplicationFeaturesTitle" xml:space="preserve">
+    <value>Основные возможности</value>
+</data>
+    <data name="LocalizationFeature" xml:space="preserve">
+    <value>Локализованный интерфейс с поддержкой английского, русского и испанского языков</value>
+</data>
+    <data name="GlobalizationFeature" xml:space="preserve">
+    <value>Автоматическое форматирование дат, времени, чисел и валюты в зависимости от культуры</value>
+</data>
+    <data name="TimeZoneFeature" xml:space="preserve">
+    <value>Локализованное отображение часового пояса</value>
+</data>
+    <data name="TechnologyTitle" xml:space="preserve">
+    <value>Используемые технологии</value>
+</data>
+    <data name="ASPNetDescription" xml:space="preserve">
+    <value>Для создания многоязычных страниц с поддержкой локализации и глобализации</value>
+</data>
+    <data name="JavaScriptDescription" xml:space="preserve">
+    <value>Для динамического обновления времени</value>
+</data>
+    <data name="ResxDescription" xml:space="preserve">
+    <value>Для управления многоязычными текстами интерфейса</value>
+</data>
+    <data name="CultureInfoDescription" xml:space="preserve">
+    <value>Для обработки культурных форматов, включая даты, время и валюту</value>
+</data>
+    <data name="PracticalImportanceTitle" xml:space="preserve">
+    <value>Практическое значение</value>
+</data>
+    <data name="PracticalImportance" xml:space="preserve">
+    <value>Это приложение является учебным примером, иллюстрирующим процесс добавления локализации и глобализации в веб-приложения на ASP.NET. Подобная функциональность востребована в реальных приложениях, где пользователи могут быть из разных стран, с разными языками и культурными особенностями, что требует гибкости интерфейса и адаптации отображаемых данных.</value>
+</data>
+
+</root>

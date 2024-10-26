@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<data name="Home" xml:space="preserve">
+    <value>Home</value>
+</data>
+    <data name="Privacy" xml:space="preserve">
+        <value>About App</value>
+    </data>
+<data name="HomePage" xml:space="preserve">
+    <value>Home Page</value>
+</data>
+<data name="Welcome" xml:space="preserve">
+    <value>Welcome to MultiLanguages App!</value>
+</data>
+<data name="LearnAbout" xml:space="preserve">
+    <value>Learn about building multilingual web apps with ASP.NET Core.</value>
+</data>
+<data name="BuildingWebApps" xml:space="preserve">
+    <value>Building Web Apps</value>
+</data>
+<data name="PrivacyPolicy" xml:space="preserve">
+    <value>About App</value>
+</data>
+    
+    <data name="LocalTime" xml:space="preserve">
+    <value>Local time of this region</value>
+</data>
+    <data name="CurrencyText" xml:space="preserve">
+    <value>Currency of this region</value>
+</data>
+    <data name="ApplicationDescriptionTitle" xml:space="preserve">
+    <value>Application Description</value>
+</data>
+    <data name="ApplicationDescription" xml:space="preserve">
+    <value>This web application demonstrates the implementation of a multilingual interface with support for localization and globalization for different languages and regional settings. The application is built on the ASP.NET Core platform and is designed for users who work in different languages (English, Russian and Spanish), with the ability to switch interface languages and adapt the displayed data to the cultural specificities of the selected region.</value>
+</data>
+    <data name="ApplicationFeaturesTitle" xml:space="preserve">
+    <value>Key Features</value>
+</data>
+    <data name="LocalizationFeature" xml:space="preserve">
+    <value>Localized user interface with support for English, Russian, and Spanish</value>
+</data>
+    <data name="GlobalizationFeature" xml:space="preserve">
+    <value>Automatic formatting of dates, times, numbers, and currency based on the selected culture</value>
+</data>
+    <data name="TimeZoneFeature" xml:space="preserve">
+    <value>Localized time zone display for user convenience</value>
+</data>
+    <data name="TechnologyTitle" xml:space="preserve">
+    <value>Technologies Used</value>
+</data>
+    <data name="ASPNetDescription" xml:space="preserve">
+    <value>Used for creating multilingual web pages with localization and globalization support</value>
+</data>
+    <data name="JavaScriptDescription" xml:space="preserve">
+    <value>Used to dynamically update local time</value>
+</data>
+    <data name="ResxDescription" xml:space="preserve">
+    <value>Used to manage multi-language interface texts</value>
+</data>
+    <data name="CultureInfoDescription" xml:space="preserve">
+    <value>Used for handling cultural formats including date, time, number formatting, and currency</value>
+</data>
+    <data name="PracticalImportanceTitle" xml:space="preserve">
+    <value>Practical Importance</value>
+</data>
+    <data name="PracticalImportance" xml:space="preserve">
+    <value>This application is a tutorial example illustrating the process of adding localization and globalization to ASP.NET web applications. Such functionality is in demand in real-world applications where users may be from different countries, with different languages and cultural backgrounds, which requires flexibility of the interface and adaptation of the displayed data.</value>
+</data>
+
+</root>

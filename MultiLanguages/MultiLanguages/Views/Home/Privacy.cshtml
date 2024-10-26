@@ -1,0 +1,30 @@
+﻿@using System.Globalization
+
+@{
+    ViewData["Title"] = MultiLanguages.Resources.Resource.PrivacyPolicy;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+
+<h2>@MultiLanguages.Resources.Resource.ApplicationDescriptionTitle</h2>
+<p>@MultiLanguages.Resources.Resource.ApplicationDescription</p>
+
+<h3>@MultiLanguages.Resources.Resource.ApplicationFeaturesTitle</h3>
+<ul>
+    <li>@MultiLanguages.Resources.Resource.LocalizationFeature</li>
+    <li>@MultiLanguages.Resources.Resource.GlobalizationFeature</li>
+    <li>@MultiLanguages.Resources.Resource.TimeZoneFeature</li>
+</ul>
+
+<h3>@MultiLanguages.Resources.Resource.TechnologyTitle</h3>
+<ul>
+    <li>ASP.NET Core: @MultiLanguages.Resources.Resource.ASPNetDescription</li>
+    <li>JavaScript: @MultiLanguages.Resources.Resource.JavaScriptDescription</li>
+    <li>.resx: @MultiLanguages.Resources.Resource.ResxDescription</li>
+    <li>CultureInfo и TimeZoneInfo: @MultiLanguages.Resources.Resource.CultureInfoDescription</li>
+</ul>
+
+<h3>@MultiLanguages.Resources.Resource.PracticalImportanceTitle</h3>
+<p>@MultiLanguages.Resources.Resource.PracticalImportance</p>

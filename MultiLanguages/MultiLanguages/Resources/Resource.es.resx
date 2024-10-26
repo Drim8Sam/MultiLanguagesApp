@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+</data>
+    <data name="Privacy" xml:space="preserve">
+        <value>Acerca de la aplicación Gion</value>
+    </data>
+<data name="HomePage" xml:space="preserve">
+    <value>Página de inicio</value>
+</data>
+<data name="Welcome" xml:space="preserve">
+    <value>¡Bienvenido a la aplicación MultiLanguages!</value>
+</data>
+<data name="LearnAbout" xml:space="preserve">
+    <value>Aprenda sobre cómo construir aplicaciones web multilingües con ASP.NET Core.</value>
+</data>
+<data name="BuildingWebApps" xml:space="preserve">
+    <value>Creación de aplicaciones web</value>
+</data>
+<data name="PrivacyPolicy" xml:space="preserve">
+    <value>Política de privacidad</value>
+</data>
+    <data name="LocalTime" xml:space="preserve">
+    <value>Hora local de esta región</value>
+</data>
+    <data name="CurrencyText" xml:space="preserve">
+    <value>Moneda de esta región</value>
+</data>
+    <data name="ApplicationDescriptionTitle" xml:space="preserve">
+    <value>Descripción de la aplicación</value>
+</data>
+    <data name="ApplicationDescription" xml:space="preserve">
+    <value>Esta aplicación web demuestra la implementación de una interfaz multilingüe con soporte para localización y globalización para varios idiomas y configuraciones regionales. La aplicación está construida sobre la plataforma ASP.NET Core y está destinada a usuarios que trabajan en diferentes idiomas (inglés, ruso y español), con la capacidad de cambiar el idioma de la interfaz y adaptar los datos mostrados a las características culturales de la región seleccionada..</value>
+</data>
+    <data name="ApplicationFeaturesTitle" xml:space="preserve">
+    <value>Funciones principales</value>
+</data>
+    <data name="LocalizationFeature" xml:space="preserve">
+    <value>Interfaz de usuario localizada con soporte para inglés, ruso y español</value>
+</data>
+    <data name="GlobalizationFeature" xml:space="preserve">
+    <value>Formato automático de fechas, horas, números y monedas según la cultura seleccionada</value>
+</data>
+    <data name="TimeZoneFeature" xml:space="preserve">
+    <value>Visualización de zona horaria localizada</value>
+</data>
+    <data name="TechnologyTitle" xml:space="preserve">
+    <value>Tecnologías utilizadas</value>
+</data>
+    <data name="ASPNetDescription" xml:space="preserve">
+    <value>Para crear páginas web multilingües con soporte de localización y globalización</value>
+</data>
+    <data name="JavaScriptDescription" xml:space="preserve">
+    <value>Para actualizar la hora local dinámicamente</value>
+</data>
+    <data name="ResxDescription" xml:space="preserve">
+    <value>Para gestionar textos de interfaz en varios idiomas</value>
+</data>
+    <data name="CultureInfoDescription" xml:space="preserve">
+    <value>Para manejar formatos culturales, incluyendo fecha, hora y moneda</value>
+</data>
+    <data name="PracticalImportanceTitle" xml:space="preserve">
+    <value>Importancia práctica</value>
+</data>
+    <data name="PracticalImportance" xml:space="preserve">
+    <value>Esta aplicación es un tutorial que ilustra el proceso de agregar localización y globalización a aplicaciones web ASP.NET. Esta funcionalidad tiene demanda en aplicaciones reales, donde los usuarios pueden ser de diferentes países, con diferentes idiomas y características culturales, lo que requiere flexibilidad de interfaz y adaptación de los datos mostrados..</value>
+</data>
+
+</root>
